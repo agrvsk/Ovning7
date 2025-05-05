@@ -35,6 +35,12 @@ img {
     /*aspect-ratio: 10;*/
     border-radius: 5px;
 }
+#video
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 
 .container{
     display: grid;
