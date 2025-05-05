@@ -1,0 +1,58 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #202020; 
+    background-color: rgb(194, 212, 218)
+}
+
+main{
+    /* padding: 4px; */
+
+    padding-bottom: 50px;
+}
+
+h3{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+li{
+    display: inline;
+    padding: 4px;
+}
+
+footer{
+    background-color: #202020;
+    color:rgb(216, 82, 20);
+    height: 50px;
+    width: 100%;
+    bottom: 0;    
+    position: fixed;
+    left: 0;
+}
+img {
+    /*aspect-ratio: 10;*/
+    border-radius: 5px;
+}
+
+.container{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    /*
+    grid-template-columns: auto 200px;
+    grid-gap: 8px;
+    */
+}
+    
+/*
+#id{
+
+}
+.class{
+
+}
+*/
